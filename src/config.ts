@@ -1,4 +1,4 @@
-export const config = {
+export const siteConfig = {
   name: "Victoria A. Tokareva",
   title: "Postdoctoral Researcher",
   description: "Interdisciplinary researcher in astroparticle physics, FAIR data management, and scientific computing at KIT.",
