@@ -5,6 +5,6 @@ import tailwindcss from "@tailwindcss/vite";
 // https://astro.build/config
 export default defineConfig({
   integrations: [tailwind()],
-  site: 'https://CantaTronic.github.io',
+  site: 'https://cantatronic.github.io',
   base: '/portfolio_page',
 });
