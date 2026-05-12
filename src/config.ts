@@ -77,7 +77,7 @@ technologies in physics. My research focuses on scientific computing, FAIR data 
     },
     {
       company: "Karlsruhe Institute of Technology (KIT)",
-      title: "Doctoral Researcher",
+      title: "Research Associate",
       dateRange: "Jul 2018 – Dec 2022",
       bullets: [
         "Doctoral research on mathematical models and algorithms for job scheduling in distributed data processing systems",

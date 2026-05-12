@@ -222,30 +222,19 @@ import { siteConfig } from "../config";
     }
     {
       siteConfig.social?.orcid && (
-        <a
-          href={siteConfig.social.orcid}
+
+        <a href={siteConfig.social.orcid}
           target="_blank"
           rel="noopener noreferrer"
           aria-label="ORCID"
-          class="transition-colors duration-300 hover:text-[var(--accent-color)]"
+          class="transition-colors duration-300 hover:opacity-70"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round"
+          <img
+            src="https://orcid.org/sites/default/files/images/orcid_16x16.png"
+            alt="ORCID"
             class="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M12 12m-9 0a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-            <path d="M9 7h1.5a2.5 2.5 0 1 1 0 5h-1.5v5" />
-            <path d="M9 7v10" />
-          </svg>
+            style="filter: none;"
+          />
         </a>
       )
     }
