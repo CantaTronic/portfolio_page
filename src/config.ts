@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Victoria A. Tokareva",
-  title: "Postdoctoral Researcher",
+  title: "Postdoctoral Researcher and Data Scientist at KIT",
   description: "Interdisciplinary researcher in astroparticle physics, FAIR data management, and scientific computing at KIT.",
   accentColor: "#1d4ed8", // change this hex to any color you like
 
@@ -12,10 +12,7 @@ export const siteConfig = {
 
   aboutMe: `I am a postdoctoral researcher at the Karlsruhe Institute of Technology (KIT),
 Institute for Astroparticle Physics, with over a decade of experience applying digital
-technologies in physics. My research focuses on scientific computing, FAIR data management,
-metadata standards, and linked data objects. I lead the metadata work package in
-PUNCH4NFDI and serve as PI for the NAPMIX project, developing interoperable metadata
-standards for nuclear, astro, and particle physics.`,
+technologies in physics. My research focuses on scientific computing, FAIR data management.`,
 
   skills: [
     "Python", "C++", "R", "Matlab", "Bash",
@@ -26,29 +23,33 @@ standards for nuclear, astro, and particle physics.`,
   ],
 
   projects: [
+      {
+      name: "PUNCH4NFDI – Particle, Universe, NuClei, CHadron for Nationale Forschungsdateninfrastruktur",
+      description: "Lead of work package 'Mapping and collating metadata'. Coordinating use-case-based metadata schema development for the Science Data Platform of PUNCH4NFDI - the consortium for of particle, astroparticle, astro-, hadron and nuclear physics communities.",
+      link: "https://www.punch4nfdi.de/",
+      dateRange: "Jan 2022 – Present",
+      skills: ["FAIR Data", "Metadata Standards", "Data Infrastructure", "Python", "Dublin Core", "Data Cite", "Organisational skills", "Scientfic Communication"],
+    },
     {
       name: "NAPMIX – Nuclear, Astro & Particle Metadata Integration for eXperiments",
-      description: "PI from KIT side. Co-developing a metadata standard for astroparticle physics with focus on data findability and interoperability.",
-      link: "",
-      skills: ["FAIR Data", "Metadata Standards", "Astroparticle Physics"],
+      description: "Contrbute to the NAPMIX schema development. Curate astroparticle physics usecase with focus on data findability and interoperability of research data.",
+      dateRange: "Dec 2024 – Present",
+      link: "https://oscars-project.eu/projects/napmix-nuclear-astro-and-particle-metadata-integration-experiments",
+      skills: ["FAIR Data", "Metadata Standards", "Astroparticle Physics", "Dublin Core", "Data Cite"],
     },
     {
-      name: "PUNCH4NFDI – Science Data Platform",
-      description: "Lead of work package 'Mapping and collating metadata'. Coordinating metadata schema development across 7 use cases from particle, astroparticle, astro-, hadron and nuclear physics communities.",
-      link: "",
-      skills: ["Metadata", "Data Infrastructure", "Python"],
-    },
-    {
-      name: "KASCADE Cosmic-ray Data Centre (KCDC)",
-      description: "Development of KCDC metadata schema and tooling, data harvesting, database management, and integration into PUNCH4NFDI data infrastructure.",
+      name: "KCDC - KASCADE Cosmic-ray Data Centre",
+      description: "Development and support of KCDC metadata schema and OAI-PMH server. Integration of the data center into PUNCH4NFDI data infrastructure.",
+      dateRange: "July 2018 – Present",
       link: "https://kcdc.iap.kit.edu/",
-      skills: ["Python", "Databases", "Data Harvesting"],
+      skills: ["Python", "Databases", "Data Harvesting", "Astroparticle Physics", "OAI-PMH", "Ro-Crate", "Dublin Core", "Data Cite"],
     },
     {
       name: "GRADLCI – German-Russian Astroparticle Data Life Cycle Initiative",
-      description: "Developed (meta)data models, metadata schemas, data harvesting and management solutions.",
+      description: "Developed (meta)data models and data management solutions for federated data starage.",
+      dateRange: "July 2018 – Dec 2021",
       link: "",
-      skills: ["Data Modelling", "Metadata", "Databases"],
+      skills: ["Data Modelling", "Metadata", "Databases", "Astroparticle physics", "MariaDB", "PostgreSQL", "MongoDB"],
     },
   ],
 
@@ -58,9 +59,9 @@ standards for nuclear, astro, and particle physics.`,
       title: "Postdoctoral Researcher",
       dateRange: "Jan 2023 – Present",
       bullets: [
-        "PI from KIT side on the NAPMIX metadata integration project",
         "Lead of PUNCH4NFDI work package 'Mapping and collating metadata'",
         "Curation of astroparticle physics use case for PUNCH4NFDI Science Data Platform",
+        "PI from KIT side on the NAPMIX metadata integration project",
         "Continued development of KCDC metadata schema and integration with national data infrastructure",
       ],
     },
@@ -70,7 +71,7 @@ standards for nuclear, astro, and particle physics.`,
       dateRange: "Sep 2025 – Dec 2025",
       bullets: [
         "Research visit funded by Karlsruhe House of Young Scientists (KHYS) Travel Grant",
-        "Focused on FAIR data systems and interoperability standards",
+        "Focused on use of Artificial Intelligence and Natural Language Processing for discipline-specififc ontology development ot promote interoperabile publishing of astroparticle research data",
       ],
     },
     {
@@ -79,7 +80,7 @@ standards for nuclear, astro, and particle physics.`,
       dateRange: "Jul 2018 – Dec 2022",
       bullets: [
         "Doctoral research on mathematical models and algorithms for job scheduling in distributed data processing systems",
-        "Developed metadata schemas and data harvesting tools for KCDC and GRADLCI",
+        "Developed metadata schemas and data harvesting tools for KCDC and GRADLCI projects",
         "Applied machine learning methods (KNN, CNN) for astroparticle physics data analysis",
       ],
     },
@@ -107,10 +108,10 @@ standards for nuclear, astro, and particle physics.`,
     {
       school: "VAK Moskau",
       degree: "Dr./VAK Moskau in Physics and Mathematics",
-      dateRange: "2018 – 2022",
+      dateRange: "2022",
       achievements: [
         "Thesis: Mathematical models and algorithms for job scheduling in distributed data processing systems with aggregated access to information resources",
-        "Scholarship from Graduate School KSETA (Karlsruhe School for Elementary and Astroparticle Physics)",
+//         "Scholarship from Graduate School KSETA (Karlsruhe School for Elementary and Astroparticle Physics)",
       ],
     },
     {
@@ -130,7 +131,7 @@ standards for nuclear, astro, and particle physics.`,
       achievements: [
         "Faculty of Applied Mathematics, Informatics and Mechanics",
         "Graduated with distinction",
-        "Federal Budget Scholarship from the Russian government",
+//         "Federal Budget Scholarship from the Russian government",
       ],
     },
   ],
