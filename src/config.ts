@@ -6,8 +6,9 @@ export const siteConfig = {
 
   social: {
     email: "victoria.tokareva@kit.edu",
-    linkedin: "", // add your LinkedIn URL if you have one
-    github:   "", // add if you have a public GitHub
+    linkedin: "https://www.linkedin.com/in/vict-tokareva/",
+    orcid: "https://orcid.org/0000-0001-6699-830X",
+    github: "", // add if you have a public GitHub
   },
 
   aboutMe: `I am a postdoctoral researcher at the Karlsruhe Institute of Technology (KIT),
@@ -23,7 +24,7 @@ technologies in physics. My research focuses on scientific computing, FAIR data 
   ],
 
   projects: [
-      {
+    {
       name: "PUNCH4NFDI – Particle, Universe, NuClei, CHadron for Nationale Forschungsdateninfrastruktur",
       description: "Lead of work package 'Mapping and collating metadata'. Coordinating use-case-based metadata schema development for the Science Data Platform of PUNCH4NFDI - the consortium for of particle, astroparticle, astro-, hadron and nuclear physics communities.",
       link: "https://www.punch4nfdi.de/",
@@ -111,7 +112,6 @@ technologies in physics. My research focuses on scientific computing, FAIR data 
       dateRange: "2022",
       achievements: [
         "Thesis: Mathematical models and algorithms for job scheduling in distributed data processing systems with aggregated access to information resources",
-//         "Scholarship from Graduate School KSETA (Karlsruhe School for Elementary and Astroparticle Physics)",
       ],
     },
     {
@@ -131,7 +131,6 @@ technologies in physics. My research focuses on scientific computing, FAIR data 
       achievements: [
         "Faculty of Applied Mathematics, Informatics and Mechanics",
         "Graduated with distinction",
-//         "Federal Budget Scholarship from the Russian government",
       ],
     },
   ],
